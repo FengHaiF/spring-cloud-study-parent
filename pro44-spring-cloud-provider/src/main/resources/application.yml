@@ -1,0 +1,13 @@
+server:
+  port: 1000
+
+
+spring:
+  application:
+    name: atguigu-provider
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/

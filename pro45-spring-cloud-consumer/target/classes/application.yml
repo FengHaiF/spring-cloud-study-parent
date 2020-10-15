@@ -1,0 +1,13 @@
+server:
+  port: 4000
+  servlet:
+    context-path: /consumer
+
+spring:
+  application:
+    name: atguigu-consumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
